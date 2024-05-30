@@ -6,8 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.game_store.model.Ticket;
-import com.game_store.service.TicketService;
+import com.app.model.Ticket;
+import com.app.services.TicketService;
 
 import javax.validation.Valid;
 import java.util.List;

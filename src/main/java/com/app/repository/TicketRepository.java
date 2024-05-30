@@ -1,7 +1,7 @@
 package com.app.repository;
 
 import com.app.model.Ticket;
-import com.game_store.model.Event;
+import com.app.model.Event;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

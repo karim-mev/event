@@ -1,11 +1,8 @@
 package com.app.services;
 
-package com.game_store.service;
-
-import com.game_store.model.Event;
-import com.game_store.repository.EventRepository;
-import com.game_store.repository.UserRepository;
 import com.app.model.Event;
+import com.app.repository.EventRepository;
+import com.app.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +21,7 @@ public class EventService {
         this.userRepository = userRepository;
     }
 
-    public List<Event> getAllEvents() {
+    public List<com.app.model.Event> getAllEvents() {
         return eventRepository.findAll();
     }
 

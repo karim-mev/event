@@ -1,7 +1,7 @@
 package com.app.repository;
 
-import com.game_store.model.Event;
-import com.game_store.model.User;
+import com.app.model.Event;
+import com.app.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

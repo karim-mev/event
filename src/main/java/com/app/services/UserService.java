@@ -1,13 +1,11 @@
 package com.app.services;
 
-package com.game_store.service;
-
 import com.app.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.game_store.model.User;
-import com.game_store.repository.UserRepository;
+import com.app.model.User;
+import com.app.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

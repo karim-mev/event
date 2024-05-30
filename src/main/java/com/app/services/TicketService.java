@@ -1,10 +1,8 @@
 package com.app.services;
 
-package com.game_store.service;
-
-import com.game_store.model.Ticket;
-import com.game_store.repository.TicketRepository;
-import com.game_store.repository.EventRepository;
+import com.app.model.Ticket;
+import com.app.repository.TicketRepository;
+import com.app.repository.EventRepository;
 import com.app.model.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,13 +30,7 @@ public class TicketService {
         return ticketRepository.findById(id);
     }
 
-    public List<Ticket> getTicketsByEvent(int eventId) {
-        // get the event by id then get tickets
-        return ticketRepository.findByEvent(eventRepository.findById(eventId)
-                .orElseThrow(() -> new RuntimeException("Event not found with id: " + eventId)));
-    }
-
-    public Ticket saveTicket(Ticket ticket) {
+    public Ticket createTicket(Ticket ticket) {
         return ticketRepository.save(ticket);
     }
 

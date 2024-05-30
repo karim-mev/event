@@ -2,7 +2,7 @@ package com.app.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.game_store.model.User;
+import com.app.model.User;
 
 import java.util.Optional;
 

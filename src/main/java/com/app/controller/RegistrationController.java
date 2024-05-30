@@ -6,9 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.game_store.model.Registration;
-import com.game_store.repository.RegistrationRepository;
-import com.game_store.service.RegistrationService;
+import com.app.model.Registration;
+import com.app.repository.RegistrationRepository;
+import com.app.services.RegistrationService;
 
 import javax.validation.Valid;
 import java.util.List;

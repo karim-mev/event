@@ -1,10 +1,10 @@
 package com.app.services;
 
-import com.game_store.model.Registration;
-import com.game_store.repository.RegistrationRepository;
-import com.game_store.repository.UserRepository;
-import com.game_store.repository.EventRepository;
-import com.game_store.repository.TicketRepository;
+import com.app.model.Registration;
+import com.app.repository.RegistrationRepository;
+import com.app.repository.UserRepository;
+import com.app.repository.EventRepository;
+import com.app.repository.TicketRepository;
 import com.app.model.Registration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
